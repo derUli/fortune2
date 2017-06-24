@@ -1,5 +1,12 @@
 <form action="index.php" method="get">
 	<input type="hidden" name="action" value="module_settings"> <input
+		type="hidden" name="module" value="fortune2"><input type="submit"
+		value="RESET">
+</form>
+<br />
+
+<form action="index.php" method="get">
+	<input type="hidden" name="action" value="module_settings"> <input
 		type="hidden" name="module" value="fortune2"> <input type="hidden"
 		name="sClass" value="Fortune"> <input type="hidden" name="sMethod"
 		value="doSomething"> <input type="submit" value="GET">
