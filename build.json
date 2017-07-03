@@ -1,8 +1,8 @@
 {
    "id" : "fortune2",
-   "version" : "0.1.2",
+   "version" : "0.1.3",
    "description" : "Prints a fortune cookie. Programming example.",
    "categories" : ["fortune", "example", "programming", "sample"],
-   "compatible_from" : "2017.3.12",
+   "compatible_from" : "2017.3.13",
    "dependencies" : []
 }
