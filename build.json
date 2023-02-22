@@ -3,6 +3,6 @@
    "version" : "0.2.4",
    "description" : "Prints a fortune cookie. Programming example.",
    "categories" : ["fortune", "example", "programming", "sample"],
-   "compatible_from" : "2020.2.3",
+   "compatible_from" : "2023.1",
    "dependencies" : []
 }
