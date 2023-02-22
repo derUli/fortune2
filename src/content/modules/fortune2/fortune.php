@@ -45,7 +45,7 @@ class Fortune extends MainClass
         } else {
             $lang = getCurrentLanguage(true);
         }
-        $fortuneDir = getModulePath($this->moduleName) . "cookies/" . $lang . "/";
+        $fortuneDir = getModulePath($this->moduleName) . "cookies/" . $lang . '/';
         if (!is_dir($fortuneDir)) {
             $fortuneDir = getModulePath($this->moduleName) . "cookies/en/";
         }
@@ -90,7 +90,7 @@ class Fortune extends MainClass
     {
         echo "Hello World!";
     }
-    
+
     // Thia is executed before uninstalling this module
     // Use this to clean up data (e.g. drop database tables, delete files)
     public function uninstall()

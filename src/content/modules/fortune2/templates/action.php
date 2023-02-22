@@ -1,6 +1,6 @@
 <?php
 
-use UliCMS\Backend\BackendPageRenderer;
+use App\Backend\BackendPageRenderer;
 
 $fortune = BackendPageRenderer::getModel();
 ?>
@@ -8,5 +8,5 @@ $fortune = BackendPageRenderer::getModel();
 <blockquote class="fortune">
     <?php
     echo nl2br($fortune);
-    ?>
+?>
 </blockquote>
